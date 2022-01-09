@@ -1,0 +1,9 @@
+build-job:
+  stage: build
+  script:
+    - echo "Hey, $GITLAB_USER_LOGIN! This is the CI/CD Pipeline!"
+
+deploy-prod:
+  stage: deploy
+  script: 
+    - echo "VC Money Machine Go BRRRRRRRRRRRR"
